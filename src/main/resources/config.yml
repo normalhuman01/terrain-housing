@@ -1,0 +1,82 @@
+storage-path: "/home/05_Survival_Pk/terrain-housing/"
+
+messages:
+    commands:
+        usage: "&cUso correcto: "
+        argument:
+            no-more: "&c¡No se encontraron más argumentos!"
+        command:
+            subcommand-invalid: "&c¡El subcomando que intentas utilizar no existe!"
+            no-permission: "&c¡No tienes suficientes permisos para ejecutar este comando!"
+            error: "&c¡Ha ocurrido un error al ejecutar el comando, intenta de nuevo!"
+        sender:
+            unknown: "&c¡Ha ocurrido un error al ejecutar el comando, intenta de nuevo!"
+            only-player: "&c¡Este comando solo puede ser utilizado por jugadores!"
+        player:
+            unknown-or-offline: "&c¡Ese nombre es inválido o el jugador se encuentra desconectado!"
+            unknown: "&c¡Ese nombre es inválido, por favor introduce uno válido!"
+            offline: "&c¡Este jugador está desconectado!"
+
+    user:
+        self: "&fNo puedes hacer esto con ti mismo"
+        target-not-found: "&fEse jugador no ha sido encontrado, es posible que no haya jugado antes"
+        not-found: "&fOcurrió un error al obtener tu información, intenta de nuevo"
+        not-claimed: "&fNo hay información sobre tu casa, intenta de nuevo"
+        terrain-not-loaded: "&fEl terreno no se ha cargado, intenta de nuevo"
+        already-claimed-terrain: "&fYa tienes reclamado un terreno, no puedes reclamar otro"
+        authorize-success: "&fHas añadido como autorizado a &a%target%"
+        already-authorized: "&f&a%target% &fya ha sido autorizado"
+        disavow-success: "&fHas quitado como autorizado a &a%target%"
+        not-authorized: "&f&a%target% &fno está autorizado aún"
+        no-claim-permission:
+            - ""
+            - " &r&lTienda Oficial de Lumina"
+            - ""
+            - " &7&oAdquiere este privilegio&r"
+            - ""
+            - "&b&ntienda.lumina.gg"
+            - ""
+    terrain:
+        not-enabled: "&fEl terreno está deshabilitado"
+        created: "&fSe ha creado el terreno &a%id% &fcorrectamente"
+        already-exists: "&fEl terreno &a%id% &fya existe"
+        enabled: "&fEl terreno &a%id% &fha sido habilitado correctamente"
+        disabled: "&fEl terreno &a%id% ha sido deshabilitado correctamente"
+
+        teleported: "&fHas sido llevado al terreno &a%id%"
+        moved-origin: "&fSe ha movido la posición de origen del terreno &a%id% &fcorrectamente"
+
+        claimed: "&fHas reclamado este terreno correctamente, recuerda que construir cosas obsenas te hará perder este privilegio."
+        unclaimed-sign:
+            - " "
+            - "&fHaz clic aquí"
+            - "&fpara reclamar"
+            - "&feste terreno"
+        claimed-sign:
+            - "&fTerreno ocupado"
+            - " "
+            - "%luckperms_prefix%"
+            - "%player_name%"
+        already-claimed-by-other: "&fEse terreno está ocupado por otro jugador"
+        already-claimed-by-you: "&fEste terreno ya está ocupado por ti"
+
+        no-target-block: "&fDebes estar mirando un bloque para poder hacer esto"
+        no-sign-block: "&fDebes mirar una señal para poder hacer esto"
+        set-sign-location: "&fSe ha establecido la localización del cartel para el terreno &a%id%"
+        set-skull-location: "&fSe ha establecido la localización de la cabeza para el terreno &a%id%"
+        no-skull-block: "&fDebes mirar una cabeza de jugador para poder hacer esto"
+
+        set-cuboid: "&fSe ha establecido el cubo para el terreno &a%id%"
+        no-selection: "&fDebes seleccionar un cubo para poder hacer esto"
+        default-schematic-created: "&fSe ha creado la schematic, se usará para reemplazar el terreno cuando se elimine"
+
+        setup-completed: "&fSe ha completado la configuración del terreno &a%id%"
+        missing-sign: "&a - &fEstablecer la localización del cartel para el terreno."
+        missing-skull: "&a - &fEstablecer la localización de la cabeza para el terreno."
+        missing-cuboid: "&a - &fEstablecer el cubo para el terreno."
+        missing-setup:
+            - "&a-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+            - "&fAún faltan configuraciones para el terreno &a%id%&f:"
+            - " "
+            - "%missing%"
+            - "&a-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
